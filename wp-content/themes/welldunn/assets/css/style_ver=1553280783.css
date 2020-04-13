@@ -753,6 +753,8 @@ div.bloc-titre-carte.first.bloc-titre-carte-r.wow.appear {
       text-align: left;
       font-size: 0;
       animation: 15s slidy infinite; 
+      animation-timing-function: linear;
+      
     }
     
 
@@ -2476,6 +2478,408 @@ header.global a.toggle span.label {
     header.global a.logo>span span:nth-of-type(4):hover {
         transition: opacity .25s cubic-bezier(0.28, 0, 0.18, 1), margin-right 2s cubic-bezier(0.28, 0, 0.18, 1)
     }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+		@media screen and (max-width: 1023px) {
+.global {
+padding-top: 1% !important;
+padding-bottom:1% !important;
+}
+}
+
+
+
+		
+h2.branding {
+	text-align: center;
+    padding-top: 20%;
+}
+@media screen and (max-width: 1023px) {
+h2.branding {
+display: none;
+}
+}
+
+
+img.branding {
+	
+	margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 35vh;
+}
+@media screen and (max-width: 1023px) {
+img.branding {
+	margin-left: 40vw !important;
+    margin-right: 9%;
+	max-width: 20% !important;
+	margin-top:1% !important;
+	
+}
+}
+
+@media (max-width: 1023px){
+	img.picstack{
+		
+		display: none !important;
+	}
+}
+
+
+@media (max-width: 1023px) {
+#multiblocks{
+display: none;
+}
+}
+
+@media (max-width: 1023px) {
+#slider{
+width: 90% !important;
+max-height: 45vh !important;
+padding-top: 20%;
+padding-bottom:20%;
+margin-left: 10vw;
+text-align: center;
+
+}
+}
+@media (max-width: 1023px) {
+#slidertext{
+display: none;
+}
+}
+
+
+div#multiblocks {
+
+  margin-bottom: 15vh;
+  padding-top: 52px;
+  margin-left: 16vw;
+  margin-right: 2vw;
+}
+
+.opbody{
+    padding-top: 10%;
+    overflow:auto;clear:both;
+}
+
+@media (max-width: 1200px) {
+    .opbody{
+        height: 65% !important;
+        font-size: 1.3vh;
+    }
+}
+
+.optitle{
+	color: #05234f;
+    font-size: 1.6em;
+    overflow:auto;clear:both;
+}
+.optitle:hover{
+	color: #b7a77d;
+}
+
+.link{
+    color: #b7a77d;
+}
+
+div.row {
+	max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+div.col-sm-6.col-md-4.col-lg-3.item-wrapper {
+  -webkit-box-flex: 0;
+  flex: 0 0 25%;
+  margin-bottom: 40px;
+  max-width: 25%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  width: 100%;
+}
+img.img-fluid-block {
+  border-style: none;
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+  object-fit: cover;
+}
+div.item.item-text {
+  background-color: #ffffff;
+  border: 1px solid #b7a77d;
+  font-size: .9rem;
+  height: 100%;
+  line-height: 1.1rem;
+  padding: 43px 18px 10px;
+  transition: all .5s;
+}
+div.item.item-text:hover {
+  background-color: pink;
+  border: 1px solid #b7a77d;
+  font-size: .9rem;
+  height: 100%;
+  line-height: 1.1rem;
+  padding: 43px 18px 10px;
+  transition: all .5s;
+}
+div.col-sm-6.col-md-4.col-lg-3.item-wrapper.hidden-xs-down {
+  -webkit-box-flex: 0;
+  flex: 0 0 25%;
+  margin-bottom: 40px;
+  max-width: 25%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  width: 100%;
+}
+img.img-fluid-block {
+  border-style: none;
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+div.text {
+  height: 75%;
+}
+
+
+.base_footer{
+
+	max-width: 88vw;
+    margin-left: 12vw;
+}
+
+@media (max-width: 1023px) {
+
+	.base_footer{
+
+	max-width: 100vw;
+	margin-left: 0vw;
+	
+}
+}
+
+.icon {
+  fill: goldenrod;
+}
+}
+
+.map{
+  width:100%;
+  text-align: center;
+  
+}
+
+.comment{
+	font-size: 1.8rem;
+	color: #05234f;
+	font-family: "Ogg", serif;
+}
+.magazine{
+	font-size: 1rem;
+	color: pink;
+}
+
+
+.footer-distributed{
+	background: rgb(253, 238, 196);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	background-image: url(https://www.demel.com/img/demel-logo-img.svg);
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #8d6b38;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+	padding-top:4%
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color:  #8d6b38;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color:  #8d6b38;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: pink;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+	padding-top:4%;
+	text-align: right;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+		
+	}
+
+}
+
+@media (max-width: 1023px){
+	.footer-center{
+		
+		text-align:left !important;
+	}
 }
 
 @media (max-width: 1023px) {
